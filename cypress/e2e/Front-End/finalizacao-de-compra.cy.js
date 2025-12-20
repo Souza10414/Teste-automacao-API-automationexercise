@@ -1,4 +1,3 @@
-
 import { faker } from '@faker-js/faker'
 
 describe('Finalização de compra com Faker', () => {
