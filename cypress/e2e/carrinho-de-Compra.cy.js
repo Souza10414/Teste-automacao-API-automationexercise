@@ -75,6 +75,7 @@ describe("Carrinho de compras", () => {
       "contain.text",
       "View Product"
     );
+
     cy.get(".product-information").within(() => {
       carrinho.validarElemento("h2")("contain.text", "Sleeveless Dress");
       carrinho.validarElemento("p")("contain.text", "Category: Women > Dress");
