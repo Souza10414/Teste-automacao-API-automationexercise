@@ -140,19 +140,10 @@ O projeto foi estruturado seguindo padrões modernos de automação:
 
 ## 👨‍💻 Autores
 
-| [<img src="https://github.com/github.png" width="75px;"/><br /><sub><b>Nathanael Nunes</b></sub>](https://github.com/) | [<img src="https://github.com/github.png" width="75px;"/><br /><sub><b>Wellison Oliveira</b></sub>](https://github.com/) |
+| [<img src="https://github.com/github.png" width="75px;"/><br /><sub><b>Nathanael Henrique Souza Nunes</b></sub>](https://github.com/) | [<img src="https://github.com/github.png" width="75px;"/><br /><sub><b>Wellison Souza Oliveira</b></sub>](https://github.com/) |
 | --- | --- |
 | QA Engineer / SDET | QA Engineer |
 
 ---
 
 ⭐ **Foco em qualidade, aprendizado contínuo e boas práticas.**
-
----
-
-### Dicas Extras para o seu GitHub:
-
-1. **Badge de Status:** Se você configurar um GitHub Action futuramente, pode adicionar um badge de "Build Passing" no topo.
-2. **Arquivo .gitignore:** Certifique-se de que a pasta `node_modules` e os relatórios locais (`cypress/reports`) estejam no seu `.gitignore` para não "sujar" o repositório.
-
-**Gostaria que eu gerasse o código para o seu arquivo `.gitignore` ou um exemplo de GitHub Action para rodar esses testes automaticamente?**
