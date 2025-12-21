@@ -1,4 +1,5 @@
 import { faker } from "@faker-js/faker";
+import "cypress-mochawesome-reporter/register";
 
 describe("Finalização de compra com Faker", () => {
   beforeEach(() => {

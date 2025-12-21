@@ -1,3 +1,5 @@
+import "cypress-mochawesome-reporter/register";
+
 class carrinhoDeCompras {
   buscarElemento(elemento) {
     const clicar = (condicao, valor) =>

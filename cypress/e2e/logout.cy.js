@@ -1,3 +1,5 @@
+import "cypress-mochawesome-reporter/register";
+
 describe("Teste de logout", () => {
   beforeEach(() => {
     cy.visit("/login");

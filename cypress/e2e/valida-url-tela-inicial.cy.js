@@ -1,14 +1,14 @@
-describe('Validação da página home', () => {
+import "cypress-mochawesome-reporter/register";
 
-   it('Deve validar a URL e confirmar carregamento da página', () => {
-
+describe("Validação da página home", () => {
+  it("Deve validar a URL e confirmar carregamento da página", () => {
     //Acessar o site
-    cy.visit('https://www.automationexercise.com/')
+    cy.visit("https://www.automationexercise.com/");
 
     //Validar URL
-    cy.url().should('eq', 'https://www.automationexercise.com/')
+    cy.url().should("eq", "https://www.automationexercise.com/");
 
     //Validar elemento visivel da página (texto principal)
-    cy.contains('AutomationExercise').should('be.visible')
-   }) 
-})
+    cy.contains("AutomationExercise").should("be.visible");
+  });
+});
