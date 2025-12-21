@@ -1,4 +1,4 @@
-# 🚀 Teste Automação API & Interface – Automation Exercise
+# 🚀  Automation Exercise
 
 Projeto de automação de testes de interface utilizando **Cypress**, com geração de dados dinâmicos através do **Faker** e criação de relatórios detalhados usando **Mochawesome**, seguindo boas práticas de **QA**.
 
@@ -41,9 +41,9 @@ Aqui está uma versão otimizada e profissional para o seu `README.md`. Eu organ
 
 ---
 
-# 🚀 Automação de API - Automation Exercise
+# 🚀  Automation Exercise
 
-Este projeto contém uma suíte de testes automatizados para a API do site [Automation Exercise](https://automationexercise.com/api_list), desenvolvida utilizando **Cypress**. O objetivo é garantir a qualidade e a confiabilidade dos endpoints através de testes robustos e boas práticas de engenharia de software.
+Este projeto contém uma suíte de testes automatizados do site [Automation Exercise](https://automationexercise.com/api_list), desenvolvida utilizando **Cypress**. O objetivo é garantir a qualidade e a confiabilidade dos endpoints através de testes robustos e boas práticas de engenharia de software.
 
 ## 🛠️ Tecnologias Utilizadas
 
