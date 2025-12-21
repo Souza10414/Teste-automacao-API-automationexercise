@@ -43,10 +43,10 @@ describe('Cadastro - Criação de conta com dados inválidos (bug)', () => {
 
         cy.contains(
             'You can now take advantage of member privileges to enhance your online shopping experience with us.'
-        ).should('be.visible')
+        ).should('not.be.visible')
 
         cy.get('[data-qa="continue-button"]')
-            .should('be.visible')
+            .should('not.be.visible')
             .and('contain.text', 'Continue')
 
     })
