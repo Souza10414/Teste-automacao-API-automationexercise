@@ -64,7 +64,7 @@ describe("Carrinho de compras", () => {
     });
   });
 
-  it("Deve adicionar produto no carrinho com um produto ja adicionado", () => {
+  it("Deve adicionar produto no carrinho com um produto ja existente", () => {
     cy.adicionarProdutoAoCarrinho();
 
     const carrinho = new carrinhoDeCompras();
@@ -115,5 +115,19 @@ describe("Carrinho de compras", () => {
       cy.get("#product-2").should("be.visible");
       cy.get("#product-3").should("be.visible");
     });
+  });
+
+  it("Deve deletar um produto do carrinho", () => {
+    cy.adicionarProdutoAoCarrinho();
+
+    const carrinho = new carrinhoDeCompras();
+
+    cy.get(".cart_quantity_delete").trigger("mouseover");
+    cy.get(".cart_quantity_delete").click();
+
+    carrinho.validarElemento("p")(
+      "contain.text",
+      "Cart is empty! Click here to buy products."
+    );
   });
 });
